@@ -33,6 +33,7 @@ export class ThemeService {
       let css = '';
       data.iconIds.forEach((i) => {
         const icon = data.iconEntities[i];
+        if(icon==null)return;
         css += `.${i}::before { background-image: url("${icon.file}"); background-position: ${icon.position}; } `;
 
         if (icon.invertLight) {
@@ -55,6 +56,7 @@ export class ThemeService {
         .filter(fnPropsNotNullish('icon'))
         .forEach((recipe) => {
           const icon = data.iconEntities[recipe.icon];
+          if(icon==null)return;
           css += `.${recipe.id}.recipe::before { background-image: url("${icon.file}"); background-position: ${icon.position}; } `;
 
           if (icon.invertLight) {

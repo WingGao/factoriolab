@@ -41,6 +41,7 @@
       "perHourSuffix": "/h"
     },
     "game": {
+      "jiangcity": "江城创业记",
       "factorio": "Factorio",
       "dysonSphereProgram": "Dyson Sphere Program",
       "satisfactory": "Satisfactory",

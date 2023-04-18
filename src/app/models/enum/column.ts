@@ -71,6 +71,7 @@ export function columnOptions(game: Game): SelectItem<Column>[] {
           i.value !== Column.Pollution &&
           i.value !== Column.Wagons
       );
+    case Game.JiangCity:
     case Game.DysonSphereProgram:
       return result.filter(
         (i) =>

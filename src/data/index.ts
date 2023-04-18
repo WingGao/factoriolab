@@ -2,6 +2,7 @@ import { AppData, Game } from '~/models';
 
 export const data: AppData = {
   mods: [
+    { id: 'jiangcity', name: '江城创业记', game: Game.JiangCity },
     { id: '1.1', name: '1.1.x', game: Game.Factorio },
     { id: '1.1e', name: '1.1.x Expensive', game: Game.Factorio },
     { id: '1.0', name: '1.0.0', game: Game.Factorio },
@@ -37,6 +38,7 @@ export const data: AppData = {
     { id: 'coi', name: 'Captain of Industry', game: Game.CaptainOfIndustry },
   ],
   v0: [
+    'jiangcity',
     '1.1',
     '1.0',
     '0.17',
@@ -56,6 +58,7 @@ export const data: AppData = {
     'xander',
   ],
   hash: [
+    'jiangcity',
     '1.1',
     '1.0',
     '017',

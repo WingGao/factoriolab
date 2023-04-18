@@ -21,7 +21,7 @@ export function rateTypeOptions(
     { value: RateType.Factories, label: 'options.rateType.factories' },
   ];
 
-  if (game === Game.DysonSphereProgram || game === Game.CaptainOfIndustry) {
+  if (game === Game.JiangCity||game === Game.DysonSphereProgram || game === Game.CaptainOfIndustry) {
     return result.filter((i) => i.value !== RateType.Wagons);
   }
 

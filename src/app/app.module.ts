@@ -95,7 +95,7 @@ function initializeApp(
   ],
   providers: [
     { provide: APP_BASE_HREF, useValue: environment.baseHref },
-    { provide: ErrorHandler, useClass: LabErrorHandler },
+    // { provide: ErrorHandler, useClass: LabErrorHandler },
     {
       provide: APP_INITIALIZER,
       deps: [PrimeNGConfig, TranslateService],
