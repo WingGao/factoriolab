@@ -167,6 +167,7 @@ export const getColumnsState = createSelector(
             },
           },
         };
+      case Game.JiangCity:
       case Game.DysonSphereProgram:
         return {
           ...Preferences.initialColumnsState,

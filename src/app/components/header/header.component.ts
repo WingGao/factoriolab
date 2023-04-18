@@ -55,16 +55,16 @@ export class HeaderComponent implements OnInit {
       icon: 'fa-brands fa-github',
       href: 'https://github.com/factoriolab/factoriolab',
     },
-    {
-      label: 'Discord',
-      icon: 'fa-brands fa-discord',
-      href: 'https://discord.gg/N4FKV687x2',
-    },
-    {
-      label: 'Support',
-      icon: 'fa-solid fa-mug-hot',
-      href: 'https://ko-fi.com/dcbroad3',
-    },
+    // {
+    //   label: 'Discord',
+    //   icon: 'fa-brands fa-discord',
+    //   href: 'https://discord.gg/N4FKV687x2',
+    // },
+    // {
+    //   label: 'Support',
+    //   icon: 'fa-solid fa-mug-hot',
+    //   href: 'https://ko-fi.com/dcbroad3',
+    // },
   ];
   gameInfo = gameInfo;
   gameOptions = gameOptions;

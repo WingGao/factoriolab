@@ -35,7 +35,7 @@ export interface SettingsState {
 }
 
 export const initialSettingsState: SettingsState = {
-  modId: '1.1',
+  modId: 'jiangcity',
   netProductionOnly: false,
   preset: Preset.Minimum,
   beaconReceivers: null,

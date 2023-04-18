@@ -1,0 +1,2926 @@
+{
+  "version": {
+    "jiangcity": "wing"
+  },
+  "categories": [
+    {
+      "id": "components",
+      "name": "加工件",
+      "stack": 1
+    },
+    {
+      "id": "buildings",
+      "name": "建筑",
+      "stack": 1
+    }
+  ],
+  "icons": [
+    {
+      "id": "components",
+      "file": "data/jiangcity/Graphics/Icon/item_1.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "buildings",
+      "file": "data/jiangcity/Graphics/Icon/build/100.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "木箱",
+      "file": "data/jiangcity/Graphics/Icon/build/1.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "储物箱",
+      "file": "data/jiangcity/Graphics/Icon/build/2.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "自动出货箱",
+      "file": "data/jiangcity/Graphics/Icon/build/3.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "自动进货箱",
+      "file": "data/jiangcity/Graphics/Icon/build/4.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "出货箱",
+      "file": "data/jiangcity/Graphics/Icon/build/5.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "大型进货箱",
+      "file": "data/jiangcity/Graphics/Icon/build/6.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "be_1级传送带",
+      "file": "data/jiangcity/Graphics/Factory/Build/conveyor_belt0.png",
+      "position": null
+    },
+    {
+      "id": "be_2级传送带",
+      "file": "data/jiangcity/Graphics/Factory/Build/conveyor_belt1.png",
+      "position": null
+    },
+    {
+      "id": "be_3级传送带",
+      "file": "data/jiangcity/Graphics/Factory/Build/conveyor_belt2.png",
+      "position": null
+    },
+    {
+      "id": "be_4级传送带",
+      "file": "data/jiangcity/Graphics/Factory/Build/conveyor_belt3.png",
+      "position": null
+    },
+    {
+      "id": "be_1级地下传送带",
+      "file": "data/jiangcity/Graphics/Factory/Build/conveyor_belt0.png",
+      "position": null
+    },
+    {
+      "id": "be_2级地下传送带",
+      "file": "data/jiangcity/Graphics/Factory/Build/conveyor_belt1.png",
+      "position": null
+    },
+    {
+      "id": "be_3级地下传送带",
+      "file": "data/jiangcity/Graphics/Factory/Build/conveyor_belt2.png",
+      "position": null
+    },
+    {
+      "id": "be_4级地下传送带",
+      "file": "data/jiangcity/Graphics/Factory/Build/conveyor_belt3.png",
+      "position": null
+    },
+    {
+      "id": "分流器",
+      "file": "data/jiangcity/Graphics/Icon/build/40.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "合并器",
+      "file": "data/jiangcity/Graphics/Icon/build/41.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "智能分流器",
+      "file": "data/jiangcity/Graphics/Icon/build/42.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "溢流器",
+      "file": "data/jiangcity/Graphics/Icon/build/45.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "制造机",
+      "file": "data/jiangcity/Graphics/Icon/build/50.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "组装机",
+      "file": "data/jiangcity/Graphics/Icon/build/51.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "合成机",
+      "file": "data/jiangcity/Graphics/Icon/build/52.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "熔炉",
+      "file": "data/jiangcity/Graphics/Icon/build/54.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "冶炼器",
+      "file": "data/jiangcity/Graphics/Icon/build/55.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "熔铸机",
+      "file": "data/jiangcity/Graphics/Icon/build/56.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "核心充能器",
+      "file": "data/jiangcity/Graphics/Icon/build/60.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "晶体置换机",
+      "file": "data/jiangcity/Graphics/Icon/build/61.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "粮食处理器",
+      "file": "data/jiangcity/Graphics/Icon/build/62.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "采集物收集箱",
+      "file": "data/jiangcity/Graphics/Icon/build/63.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "制作台",
+      "file": "data/jiangcity/Graphics/Icon/build/100.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "生产间",
+      "file": "data/jiangcity/Graphics/Icon/build/101.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "原油精炼厂",
+      "file": "data/jiangcity/Graphics/Icon/build/110.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "迷你卫星",
+      "file": "data/jiangcity/Graphics/Icon/build/130.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "小型火力发电机",
+      "file": "data/jiangcity/Graphics/Icon/build/199.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "风力发电机_close",
+      "file": "data/jiangcity/Graphics/Icon/build/200.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "火力发电机",
+      "file": "data/jiangcity/Graphics/Icon/build/201.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "太阳能发电板",
+      "file": "data/jiangcity/Graphics/Icon/build/202.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "燃油发电机",
+      "file": "data/jiangcity/Graphics/Icon/build/203.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "储电器",
+      "file": "data/jiangcity/Graphics/Icon/build/220.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "电线",
+      "file": "data/jiangcity/Graphics/Icon/build/250.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "跨区送电站",
+      "file": "data/jiangcity/Graphics/Icon/build/260.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "跨区收电站",
+      "file": "data/jiangcity/Graphics/Icon/build/261.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "抽水机",
+      "file": "data/jiangcity/Graphics/Icon/build/300.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "原油钻井",
+      "file": "data/jiangcity/Graphics/Icon/build/301.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "水管",
+      "file": "data/jiangcity/Graphics/Icon/build/320.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "石墙",
+      "file": "data/jiangcity/Graphics/Icon/build/400.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "告示牌",
+      "file": "data/jiangcity/Graphics/Icon/build/410.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "木质短门",
+      "file": "data/jiangcity/Graphics/Icon/build/430.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "传送板",
+      "file": "data/jiangcity/Graphics/Icon/build/450.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "跨区传送板",
+      "file": "data/jiangcity/Graphics/Icon/build/451.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "跨区送货站",
+      "file": "data/jiangcity/Graphics/Icon/build/452.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "跨区收货站",
+      "file": "data/jiangcity/Graphics/Icon/build/453.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "地板拆除",
+      "file": "data/jiangcity/Graphics/Icon/build/459.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "石砖地板",
+      "file": "data/jiangcity/Graphics/Icon/build/460.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "高速地板",
+      "file": "data/jiangcity/Graphics/Icon/build/461.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "高性能地面",
+      "file": "data/jiangcity/Graphics/Icon/build/462.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "小型地灯",
+      "file": "data/jiangcity/Graphics/Icon/build/480.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "路灯",
+      "file": "data/jiangcity/Graphics/Icon/build/481.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "远光灯塔",
+      "file": "data/jiangcity/Graphics/Icon/build/482.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "长空灯",
+      "file": "data/jiangcity/Graphics/Icon/build/483.png",
+      "position": "center;background-size:cover"
+    },
+    {
+      "id": "原木",
+      "file": "data/jiangcity/Graphics/Icon/item_1.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "木材",
+      "file": "data/jiangcity/Graphics/Icon/item_2.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "木板",
+      "file": "data/jiangcity/Graphics/Icon/item_50.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "石材",
+      "file": "data/jiangcity/Graphics/Icon/item_10.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "加强木板",
+      "file": "data/jiangcity/Graphics/Icon/item_52.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "木棒",
+      "file": "data/jiangcity/Graphics/Icon/item_51.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "螺丝",
+      "file": "data/jiangcity/Graphics/Icon/item_63.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "木质框架",
+      "file": "data/jiangcity/Graphics/Icon/item_53.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "加固铁板",
+      "file": "data/jiangcity/Graphics/Icon/item_65.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "C级能量块",
+      "file": "data/jiangcity/Graphics/Icon/item_71.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "铁质核心",
+      "file": "data/jiangcity/Graphics/Icon/item_54.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "石头",
+      "file": "data/jiangcity/Graphics/Icon/item_5.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "铁矿石",
+      "file": "data/jiangcity/Graphics/Icon/item_13.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "铁锭",
+      "file": "data/jiangcity/Graphics/Icon/item_60.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "铜矿石",
+      "file": "data/jiangcity/Graphics/Icon/item_12.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "铜锭",
+      "file": "data/jiangcity/Graphics/Icon/item_68.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "石砖",
+      "file": "data/jiangcity/Graphics/Icon/item_55.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "铁板",
+      "file": "data/jiangcity/Graphics/Icon/item_61.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "铁棒",
+      "file": "data/jiangcity/Graphics/Icon/item_62.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "铁质框架",
+      "file": "data/jiangcity/Graphics/Icon/item_64.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "铁质工具",
+      "file": "data/jiangcity/Graphics/Icon/item_66.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "B级能量块",
+      "file": "data/jiangcity/Graphics/Icon/item_72.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "钢制核心",
+      "file": "data/jiangcity/Graphics/Icon/item_67.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "铜板",
+      "file": "data/jiangcity/Graphics/Icon/item_69.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "铜线",
+      "file": "data/jiangcity/Graphics/Icon/item_70.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "沙子",
+      "file": "data/jiangcity/Graphics/Icon/item_6.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "提纯硅",
+      "file": "data/jiangcity/Graphics/Icon/item_18.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "玻璃",
+      "file": "data/jiangcity/Graphics/Icon/item_17.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "木纤维",
+      "file": "data/jiangcity/Graphics/Icon/item_14.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "线",
+      "file": "data/jiangcity/Graphics/Icon/item_15.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "布",
+      "file": "data/jiangcity/Graphics/Icon/item_16.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "纸",
+      "file": "data/jiangcity/Graphics/Icon/item_58.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "油",
+      "file": "data/jiangcity/Graphics/Icon/item_83.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "油纸",
+      "file": "data/jiangcity/Graphics/Icon/item_59.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "初级工具",
+      "file": "data/jiangcity/Graphics/Icon/item_57.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "粮食",
+      "file": "data/jiangcity/Graphics/Icon/item_4.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "酒",
+      "file": "data/jiangcity/Graphics/Icon/item_82.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "酒精",
+      "file": "data/jiangcity/Graphics/Icon/item_84.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "煤矿石",
+      "file": "data/jiangcity/Graphics/Icon/item_11.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "钢锭",
+      "file": "data/jiangcity/Graphics/Icon/item_74.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "钢管",
+      "file": "data/jiangcity/Graphics/Icon/item_75.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "钢板",
+      "file": "data/jiangcity/Graphics/Icon/item_76.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "钢筋混凝土",
+      "file": "data/jiangcity/Graphics/Icon/item_78.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "电枢",
+      "file": "data/jiangcity/Graphics/Icon/item_90.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "集电环",
+      "file": "data/jiangcity/Graphics/Icon/item_91.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "燃料碳棒",
+      "file": "data/jiangcity/Graphics/Icon/item_120.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "强力石砖",
+      "file": "data/jiangcity/Graphics/Icon/item_56.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "兽皮",
+      "file": "data/jiangcity/Graphics/Icon/item_905.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "精致皮革",
+      "file": "data/jiangcity/Graphics/Icon/item_950.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "蛛丝",
+      "file": "data/jiangcity/Graphics/Icon/item_900.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "精致丝线",
+      "file": "data/jiangcity/Graphics/Icon/item_951.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "红色晶能",
+      "file": "data/jiangcity/Graphics/Icon/item_700.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "绿色晶能",
+      "file": "data/jiangcity/Graphics/Icon/item_701.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "蓝色晶能",
+      "file": "data/jiangcity/Graphics/Icon/item_702.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "控制器",
+      "file": "data/jiangcity/Graphics/Icon/item_93.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "电动机",
+      "file": "data/jiangcity/Graphics/Icon/item_79.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "紫色晶能",
+      "file": "data/jiangcity/Graphics/Icon/item_703.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "黄色晶能",
+      "file": "data/jiangcity/Graphics/Icon/item_704.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "黑色晶能",
+      "file": "data/jiangcity/Graphics/Icon/item_705.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "芯片",
+      "file": "data/jiangcity/Graphics/Icon/item_92.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "工业结构体",
+      "file": "data/jiangcity/Graphics/Icon/item_77.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "高级工具",
+      "file": "data/jiangcity/Graphics/Icon/item_94.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "天机石",
+      "file": "data/jiangcity/Graphics/Icon/item_980.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "桶装石油",
+      "file": "data/jiangcity/Graphics/Icon/item_200.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "塑料",
+      "file": "data/jiangcity/Graphics/Icon/item_95.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "橡胶",
+      "file": "data/jiangcity/Graphics/Icon/item_96.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "电路板",
+      "file": "data/jiangcity/Graphics/Icon/item_97.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "大型计算机",
+      "file": "data/jiangcity/Graphics/Icon/item_98.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "燃油能量块",
+      "file": "data/jiangcity/Graphics/Icon/item_121.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "高性能地板",
+      "file": "data/jiangcity/Graphics/Icon/item_122.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "香皂",
+      "file": "data/jiangcity/Graphics/Icon/item_7002.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "铜镜",
+      "file": "data/jiangcity/Graphics/Icon/item_7008.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "油纸伞",
+      "file": "data/jiangcity/Graphics/Icon/item_7012.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "医药箱",
+      "file": "data/jiangcity/Graphics/Icon/item_7016.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "手表",
+      "file": "data/jiangcity/Graphics/Icon/item_7017.png",
+      "position": "center;background-size:150%"
+    },
+    {
+      "id": "烤箱",
+      "file": "data/jiangcity/Graphics/Icon/item_7024.png",
+      "position": "center;background-size:150%"
+    }
+  ],
+  "items": [
+    {
+      "id": "木箱",
+      "name": "木箱",
+      "category": "buildings",
+      "stack": 1
+    },
+    {
+      "id": "储物箱",
+      "name": "储物箱",
+      "category": "buildings",
+      "stack": 1
+    },
+    {
+      "id": "自动出货箱",
+      "name": "自动出货箱",
+      "category": "buildings",
+      "stack": 1
+    },
+    {
+      "id": "自动进货箱",
+      "name": "自动进货箱",
+      "category": "buildings",
+      "stack": 1
+    },
+    {
+      "id": "出货箱",
+      "name": "出货箱",
+      "category": "buildings",
+      "stack": 1
+    },
+    {
+      "id": "大型进货箱",
+      "name": "大型进货箱",
+      "category": "buildings",
+      "stack": 1
+    },
+    {
+      "belt": {
+        "speed": 1
+      },
+      "id": "be_1级传送带",
+      "name": "1级传送带",
+      "category": "buildings",
+      "row": 1,
+      "stack": 1
+    },
+    {
+      "belt": {
+        "speed": 2
+      },
+      "id": "be_2级传送带",
+      "name": "2级传送带",
+      "category": "buildings",
+      "row": 1,
+      "stack": 1
+    },
+    {
+      "belt": {
+        "speed": 4
+      },
+      "id": "be_3级传送带",
+      "name": "3级传送带",
+      "category": "buildings",
+      "row": 1,
+      "stack": 1
+    },
+    {
+      "belt": {
+        "speed": 8
+      },
+      "id": "be_4级传送带",
+      "name": "4级传送带",
+      "category": "buildings",
+      "row": 1,
+      "stack": 1
+    },
+    {
+      "belt": {
+        "speed": 1
+      },
+      "id": "be_1级地下传送带",
+      "name": "1级地下传送带",
+      "category": "buildings",
+      "row": 1,
+      "stack": 1
+    },
+    {
+      "belt": {
+        "speed": 2
+      },
+      "id": "be_2级地下传送带",
+      "name": "2级地下传送带",
+      "category": "buildings",
+      "row": 1,
+      "stack": 1
+    },
+    {
+      "belt": {
+        "speed": 4
+      },
+      "id": "be_3级地下传送带",
+      "name": "3级地下传送带",
+      "category": "buildings",
+      "row": 1,
+      "stack": 1
+    },
+    {
+      "belt": {
+        "speed": 8
+      },
+      "id": "be_4级地下传送带",
+      "name": "4级地下传送带",
+      "category": "buildings",
+      "row": 1,
+      "stack": 1
+    },
+    {
+      "id": "分流器",
+      "name": "分流器",
+      "category": "buildings",
+      "stack": 1
+    },
+    {
+      "id": "合并器",
+      "name": "合并器",
+      "category": "buildings",
+      "stack": 1
+    },
+    {
+      "id": "智能分流器",
+      "name": "智能分流器",
+      "category": "buildings",
+      "stack": 1
+    },
+    {
+      "id": "溢流器",
+      "name": "溢流器",
+      "category": "buildings",
+      "stack": 1
+    },
+    {
+      "factory": {
+        "type": "electric",
+        "usage": 4,
+        "speed": 1
+      },
+      "id": "制造机",
+      "name": "制造机",
+      "category": "buildings",
+      "row": 2,
+      "stack": 1
+    },
+    {
+      "factory": {
+        "type": "electric",
+        "usage": 18,
+        "speed": 1
+      },
+      "id": "组装机",
+      "name": "组装机",
+      "category": "buildings",
+      "row": 2,
+      "stack": 1
+    },
+    {
+      "factory": {
+        "type": "electric",
+        "usage": 64,
+        "speed": 1
+      },
+      "id": "合成机",
+      "name": "合成机",
+      "category": "buildings",
+      "row": 2,
+      "stack": 1
+    },
+    {
+      "id": "熔炉",
+      "name": "熔炉",
+      "category": "buildings",
+      "stack": 1
+    },
+    {
+      "factory": {
+        "type": "electric",
+        "usage": 5,
+        "speed": 1
+      },
+      "id": "冶炼器",
+      "name": "冶炼器",
+      "category": "buildings",
+      "row": 2,
+      "stack": 1
+    },
+    {
+      "factory": {
+        "type": "electric",
+        "usage": 16,
+        "speed": 1
+      },
+      "id": "熔铸机",
+      "name": "熔铸机",
+      "category": "buildings",
+      "row": 2,
+      "stack": 1
+    },
+    {
+      "factory": {
+        "type": "electric",
+        "usage": 20,
+        "speed": 1
+      },
+      "id": "核心充能器",
+      "name": "核心充能器",
+      "category": "buildings",
+      "row": 2,
+      "stack": 1
+    },
+    {
+      "factory": {
+        "type": "electric",
+        "usage": 18,
+        "speed": 1
+      },
+      "id": "晶体置换机",
+      "name": "晶体置换机",
+      "category": "buildings",
+      "row": 2,
+      "stack": 1
+    },
+    {
+      "factory": {
+        "type": "electric",
+        "usage": 8,
+        "speed": 1
+      },
+      "id": "粮食处理器",
+      "name": "粮食处理器",
+      "category": "buildings",
+      "row": 2,
+      "stack": 1
+    },
+    {
+      "factory": {
+        "type": "electric",
+        "usage": 120,
+        "speed": 1
+      },
+      "id": "采集物收集箱",
+      "name": "采集物收集箱",
+      "category": "buildings",
+      "row": 2,
+      "stack": 1
+    },
+    {
+      "id": "制作台",
+      "name": "制作台",
+      "category": "buildings",
+      "stack": 1
+    },
+    {
+      "id": "生产间",
+      "name": "生产间",
+      "category": "buildings",
+      "stack": 1
+    },
+    {
+      "factory": {
+        "type": "electric",
+        "usage": 30,
+        "speed": 1
+      },
+      "id": "原油精炼厂",
+      "name": "原油精炼厂",
+      "category": "buildings",
+      "row": 2,
+      "stack": 1
+    },
+    {
+      "factory": {
+        "type": "electric",
+        "usage": 64,
+        "speed": 1
+      },
+      "id": "迷你卫星",
+      "name": "迷你卫星",
+      "category": "buildings",
+      "row": 2,
+      "stack": 1
+    },
+    {
+      "id": "小型火力发电机",
+      "name": "小型火力发电机",
+      "category": "buildings",
+      "stack": 1
+    },
+    {
+      "id": "风力发电机_close",
+      "name": "风力发电机_close",
+      "category": "buildings",
+      "stack": 1
+    },
+    {
+      "id": "火力发电机",
+      "name": "火力发电机",
+      "category": "buildings",
+      "stack": 1
+    },
+    {
+      "id": "太阳能发电板",
+      "name": "太阳能发电板",
+      "category": "buildings",
+      "stack": 1
+    },
+    {
+      "id": "燃油发电机",
+      "name": "燃油发电机",
+      "category": "buildings",
+      "stack": 1
+    },
+    {
+      "id": "储电器",
+      "name": "储电器",
+      "category": "buildings",
+      "stack": 1
+    },
+    {
+      "id": "电线",
+      "name": "电线",
+      "category": "buildings",
+      "stack": 1
+    },
+    {
+      "factory": {
+        "type": "electric",
+        "usage": 30,
+        "speed": 1
+      },
+      "id": "跨区送电站",
+      "name": "跨区送电站",
+      "category": "buildings",
+      "row": 2,
+      "stack": 1
+    },
+    {
+      "id": "跨区收电站",
+      "name": "跨区收电站",
+      "category": "buildings",
+      "stack": 1
+    },
+    {
+      "factory": {
+        "type": "electric",
+        "usage": 12,
+        "speed": 1
+      },
+      "id": "抽水机",
+      "name": "抽水机",
+      "category": "buildings",
+      "row": 2,
+      "stack": 1
+    },
+    {
+      "factory": {
+        "type": "electric",
+        "usage": 45,
+        "speed": 1
+      },
+      "id": "原油钻井",
+      "name": "原油钻井",
+      "category": "buildings",
+      "row": 2,
+      "stack": 1
+    },
+    {
+      "id": "水管",
+      "name": "水管",
+      "category": "buildings",
+      "stack": 1
+    },
+    {
+      "id": "石墙",
+      "name": "石墙",
+      "category": "buildings",
+      "stack": 1
+    },
+    {
+      "id": "告示牌",
+      "name": "告示牌",
+      "category": "buildings",
+      "stack": 1
+    },
+    {
+      "id": "木质短门",
+      "name": "木质短门",
+      "category": "buildings",
+      "stack": 1
+    },
+    {
+      "factory": {
+        "type": "electric",
+        "usage": 24,
+        "speed": 1
+      },
+      "id": "传送板",
+      "name": "传送板",
+      "category": "buildings",
+      "row": 2,
+      "stack": 1
+    },
+    {
+      "factory": {
+        "type": "electric",
+        "usage": 75,
+        "speed": 1
+      },
+      "id": "跨区传送板",
+      "name": "跨区传送板",
+      "category": "buildings",
+      "row": 2,
+      "stack": 1
+    },
+    {
+      "factory": {
+        "type": "electric",
+        "usage": 45,
+        "speed": 1
+      },
+      "id": "跨区送货站",
+      "name": "跨区送货站",
+      "category": "buildings",
+      "row": 2,
+      "stack": 1
+    },
+    {
+      "factory": {
+        "type": "electric",
+        "usage": 25,
+        "speed": 1
+      },
+      "id": "跨区收货站",
+      "name": "跨区收货站",
+      "category": "buildings",
+      "row": 2,
+      "stack": 1
+    },
+    {
+      "id": "地板拆除",
+      "name": "地板拆除",
+      "category": "buildings",
+      "stack": 1
+    },
+    {
+      "id": "石砖地板",
+      "name": "石砖地板",
+      "category": "buildings",
+      "stack": 1
+    },
+    {
+      "id": "高速地板",
+      "name": "高速地板",
+      "category": "buildings",
+      "stack": 1
+    },
+    {
+      "id": "高性能地面",
+      "name": "高性能地面",
+      "category": "buildings",
+      "stack": 1
+    },
+    {
+      "factory": {
+        "type": "electric",
+        "usage": 2,
+        "speed": 1
+      },
+      "id": "小型地灯",
+      "name": "小型地灯",
+      "category": "buildings",
+      "row": 2,
+      "stack": 1
+    },
+    {
+      "factory": {
+        "type": "electric",
+        "usage": 10,
+        "speed": 1
+      },
+      "id": "路灯",
+      "name": "路灯",
+      "category": "buildings",
+      "row": 2,
+      "stack": 1
+    },
+    {
+      "factory": {
+        "type": "electric",
+        "usage": 35,
+        "speed": 1
+      },
+      "id": "远光灯塔",
+      "name": "远光灯塔",
+      "category": "buildings",
+      "row": 2,
+      "stack": 1
+    },
+    {
+      "id": "长空灯",
+      "name": "长空灯",
+      "category": "buildings",
+      "stack": 1
+    },
+    {
+      "id": "原木",
+      "name": "原木",
+      "category": "components",
+      "row": 1,
+      "stack": 1
+    },
+    {
+      "id": "木材",
+      "name": "木材",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "木板",
+      "name": "木板",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "石材",
+      "name": "石材",
+      "category": "components",
+      "row": 2,
+      "stack": 1
+    },
+    {
+      "id": "加强木板",
+      "name": "加强木板",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "木棒",
+      "name": "木棒",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "螺丝",
+      "name": "螺丝",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "木质框架",
+      "name": "木质框架",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "加固铁板",
+      "name": "加固铁板",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "C级能量块",
+      "name": "C级能量块",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "铁质核心",
+      "name": "铁质核心",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "石头",
+      "name": "石头",
+      "category": "components",
+      "row": 1,
+      "stack": 1
+    },
+    {
+      "id": "铁矿石",
+      "name": "铁矿石",
+      "category": "components",
+      "row": 1,
+      "stack": 1
+    },
+    {
+      "id": "铁锭",
+      "name": "铁锭",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "铜矿石",
+      "name": "铜矿石",
+      "category": "components",
+      "row": 1,
+      "stack": 1
+    },
+    {
+      "id": "铜锭",
+      "name": "铜锭",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "石砖",
+      "name": "石砖",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "铁板",
+      "name": "铁板",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "铁棒",
+      "name": "铁棒",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "铁质框架",
+      "name": "铁质框架",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "铁质工具",
+      "name": "铁质工具",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "B级能量块",
+      "name": "B级能量块",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "钢制核心",
+      "name": "钢制核心",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "铜板",
+      "name": "铜板",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "铜线",
+      "name": "铜线",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "沙子",
+      "name": "沙子",
+      "category": "components",
+      "row": 1,
+      "stack": 1
+    },
+    {
+      "id": "提纯硅",
+      "name": "提纯硅",
+      "category": "components",
+      "row": 4,
+      "stack": 1
+    },
+    {
+      "id": "玻璃",
+      "name": "玻璃",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "木纤维",
+      "name": "木纤维",
+      "category": "components",
+      "row": 2,
+      "stack": 1
+    },
+    {
+      "id": "线",
+      "name": "线",
+      "category": "components",
+      "row": 2,
+      "stack": 1
+    },
+    {
+      "id": "布",
+      "name": "布",
+      "category": "components",
+      "row": 2,
+      "stack": 1
+    },
+    {
+      "id": "纸",
+      "name": "纸",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "油",
+      "name": "油",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "油纸",
+      "name": "油纸",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "初级工具",
+      "name": "初级工具",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "粮食",
+      "name": "粮食",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "酒",
+      "name": "酒",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "酒精",
+      "name": "酒精",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "煤矿石",
+      "name": "煤矿石",
+      "category": "components",
+      "row": 1,
+      "stack": 1
+    },
+    {
+      "id": "钢锭",
+      "name": "钢锭",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "钢管",
+      "name": "钢管",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "钢板",
+      "name": "钢板",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "钢筋混凝土",
+      "name": "钢筋混凝土",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "电枢",
+      "name": "电枢",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "集电环",
+      "name": "集电环",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "燃料碳棒",
+      "name": "燃料碳棒",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "强力石砖",
+      "name": "强力石砖",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "兽皮",
+      "name": "兽皮",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "精致皮革",
+      "name": "精致皮革",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "蛛丝",
+      "name": "蛛丝",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "精致丝线",
+      "name": "精致丝线",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "红色晶能",
+      "name": "红色晶能",
+      "category": "components",
+      "row": 1,
+      "stack": 1
+    },
+    {
+      "id": "绿色晶能",
+      "name": "绿色晶能",
+      "category": "components",
+      "row": 1,
+      "stack": 1
+    },
+    {
+      "id": "蓝色晶能",
+      "name": "蓝色晶能",
+      "category": "components",
+      "row": 1,
+      "stack": 1
+    },
+    {
+      "id": "控制器",
+      "name": "控制器",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "电动机",
+      "name": "电动机",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "紫色晶能",
+      "name": "紫色晶能",
+      "category": "components",
+      "row": 1,
+      "stack": 1
+    },
+    {
+      "id": "黄色晶能",
+      "name": "黄色晶能",
+      "category": "components",
+      "row": 1,
+      "stack": 1
+    },
+    {
+      "id": "黑色晶能",
+      "name": "黑色晶能",
+      "category": "components",
+      "row": 1,
+      "stack": 1
+    },
+    {
+      "id": "芯片",
+      "name": "芯片",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "工业结构体",
+      "name": "工业结构体",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "高级工具",
+      "name": "高级工具",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "天机石",
+      "name": "天机石",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "桶装石油",
+      "name": "桶装石油",
+      "category": "components",
+      "row": 1,
+      "stack": 1
+    },
+    {
+      "id": "塑料",
+      "name": "塑料",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "橡胶",
+      "name": "橡胶",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "电路板",
+      "name": "电路板",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "大型计算机",
+      "name": "大型计算机",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "燃油能量块",
+      "name": "燃油能量块",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "高性能地板",
+      "name": "高性能地板",
+      "category": "components",
+      "row": 3,
+      "stack": 1
+    },
+    {
+      "id": "香皂",
+      "name": "香皂",
+      "category": "components",
+      "row": 2,
+      "stack": 1
+    },
+    {
+      "id": "铜镜",
+      "name": "铜镜",
+      "category": "components",
+      "row": 2,
+      "stack": 1
+    },
+    {
+      "id": "油纸伞",
+      "name": "油纸伞",
+      "category": "components",
+      "row": 2,
+      "stack": 1
+    },
+    {
+      "id": "医药箱",
+      "name": "医药箱",
+      "category": "components",
+      "row": 2,
+      "stack": 1
+    },
+    {
+      "id": "手表",
+      "name": "手表",
+      "category": "components",
+      "row": 2,
+      "stack": 1
+    },
+    {
+      "id": "烤箱",
+      "name": "烤箱",
+      "category": "components",
+      "row": 2,
+      "stack": 1
+    }
+  ],
+  "recipes": [
+    {
+      "time": 3,
+      "in": {
+        "原木": 1
+      },
+      "out": {
+        "木材": 1
+      },
+      "producers": [
+        "制造机",
+        "组装机",
+        "合成机"
+      ],
+      "id": "木材生产",
+      "name": "木材生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 3,
+      "in": {
+        "木材": 1
+      },
+      "out": {
+        "木板": 1
+      },
+      "producers": [
+        "制造机",
+        "组装机",
+        "合成机"
+      ],
+      "id": "木板生产",
+      "name": "木板生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 8,
+      "in": {
+        "木板": 2,
+        "石材": 3
+      },
+      "out": {
+        "加强木板": 1
+      },
+      "producers": [
+        "组装机",
+        "合成机"
+      ],
+      "id": "加强木板生产",
+      "name": "加强木板生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 8,
+      "in": {
+        "木棒": 4,
+        "螺丝": 6
+      },
+      "out": {
+        "木质框架": 1
+      },
+      "producers": [
+        "组装机",
+        "合成机"
+      ],
+      "id": "木质框架生产",
+      "name": "木质框架生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 10,
+      "in": {
+        "加固铁板": 1,
+        "C级能量块": 1
+      },
+      "out": {
+        "铁质核心": 1
+      },
+      "producers": [
+        "组装机",
+        "合成机"
+      ],
+      "id": "铁质核心生产",
+      "name": "铁质核心生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 6,
+      "in": {
+        "木材": 2
+      },
+      "out": {
+        "木棒": 3
+      },
+      "producers": [
+        "制造机",
+        "组装机",
+        "合成机"
+      ],
+      "id": "木棒生产",
+      "name": "木棒生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 3,
+      "in": {
+        "石头": 1
+      },
+      "out": {
+        "石材": 1
+      },
+      "producers": [
+        "制造机",
+        "组装机",
+        "合成机"
+      ],
+      "id": "石材生产",
+      "name": "石材生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 3,
+      "in": {
+        "铁矿石": 2
+      },
+      "out": {
+        "铁锭": 1
+      },
+      "producers": [
+        "冶炼器",
+        "熔炉"
+      ],
+      "id": "铁锭生产",
+      "name": "铁锭生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 3,
+      "in": {
+        "铜矿石": 2
+      },
+      "out": {
+        "铜锭": 1
+      },
+      "producers": [
+        "冶炼器",
+        "熔炉"
+      ],
+      "id": "铜锭生产",
+      "name": "铜锭生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 6,
+      "in": {
+        "石材": 2
+      },
+      "out": {
+        "石砖": 1
+      },
+      "producers": [
+        "制造机",
+        "组装机",
+        "合成机"
+      ],
+      "id": "石砖生产",
+      "name": "石砖生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 3,
+      "in": {
+        "铁锭": 1
+      },
+      "out": {
+        "铁板": 1
+      },
+      "producers": [
+        "制造机",
+        "组装机",
+        "合成机"
+      ],
+      "id": "铁板生产",
+      "name": "铁板生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 6,
+      "in": {
+        "铁锭": 2
+      },
+      "out": {
+        "铁棒": 3
+      },
+      "producers": [
+        "制造机",
+        "组装机",
+        "合成机"
+      ],
+      "id": "铁棒生产",
+      "name": "铁棒生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 2,
+      "in": {
+        "铁棒": 1
+      },
+      "out": {
+        "螺丝": 3
+      },
+      "producers": [
+        "制造机",
+        "组装机",
+        "合成机"
+      ],
+      "id": "螺丝生产",
+      "name": "螺丝生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 8,
+      "in": {
+        "铁板": 2,
+        "螺丝": 4
+      },
+      "out": {
+        "加固铁板": 1
+      },
+      "producers": [
+        "组装机",
+        "合成机"
+      ],
+      "id": "加固铁板生产",
+      "name": "加固铁板生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 8,
+      "in": {
+        "铁棒": 4,
+        "螺丝": 6
+      },
+      "out": {
+        "铁质框架": 1
+      },
+      "producers": [
+        "组装机",
+        "合成机"
+      ],
+      "id": "铁质框架生产",
+      "name": "铁质框架生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 10,
+      "in": {
+        "铁棒": 2,
+        "加固铁板": 1
+      },
+      "out": {
+        "铁质工具": 1
+      },
+      "producers": [
+        "组装机",
+        "合成机"
+      ],
+      "id": "铁质工具生产",
+      "name": "铁质工具生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 12,
+      "in": {
+        "铁质工具": 1,
+        "B级能量块": 1
+      },
+      "out": {
+        "钢制核心": 1
+      },
+      "producers": [
+        "组装机",
+        "合成机"
+      ],
+      "id": "钢质核心生产",
+      "name": "钢质核心生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 3,
+      "in": {
+        "铜锭": 1
+      },
+      "out": {
+        "铜板": 1
+      },
+      "producers": [
+        "制造机",
+        "组装机",
+        "合成机"
+      ],
+      "id": "铜板生产",
+      "name": "铜板生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 6,
+      "in": {
+        "铜锭": 2
+      },
+      "out": {
+        "铜线": 3
+      },
+      "producers": [
+        "制造机",
+        "组装机",
+        "合成机"
+      ],
+      "id": "铜线生产",
+      "name": "铜线生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 7,
+      "in": {
+        "沙子": 3
+      },
+      "out": {
+        "提纯硅": 1
+      },
+      "producers": [
+        "制造机",
+        "组装机",
+        "合成机"
+      ],
+      "id": "硅提纯",
+      "name": "硅提纯",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 5,
+      "in": {
+        "沙子": 3,
+        "石头": 3
+      },
+      "out": {
+        "玻璃": 1
+      },
+      "producers": [
+        "熔铸机"
+      ],
+      "id": "玻璃生产",
+      "name": "玻璃生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 6,
+      "in": {
+        "原木": 2
+      },
+      "out": {
+        "木纤维": 3
+      },
+      "producers": [
+        "制造机",
+        "组装机",
+        "合成机"
+      ],
+      "id": "木纤维生产",
+      "name": "木纤维生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 6,
+      "in": {
+        "木纤维": 2
+      },
+      "out": {
+        "线": 1
+      },
+      "producers": [
+        "制造机",
+        "组装机",
+        "合成机"
+      ],
+      "id": "线生产",
+      "name": "线生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 6,
+      "in": {
+        "线": 2
+      },
+      "out": {
+        "布": 1
+      },
+      "producers": [
+        "制造机",
+        "组装机",
+        "合成机"
+      ],
+      "id": "布生产",
+      "name": "布生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 3,
+      "in": {
+        "木材": 1
+      },
+      "out": {
+        "纸": 2
+      },
+      "producers": [
+        "制造机",
+        "组装机",
+        "合成机"
+      ],
+      "id": "纸生产",
+      "name": "纸生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 9,
+      "in": {
+        "纸": 3,
+        "油": 1
+      },
+      "out": {
+        "油纸": 1
+      },
+      "producers": [
+        "组装机",
+        "合成机"
+      ],
+      "id": "油纸生产",
+      "name": "油纸生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 10,
+      "in": {
+        "木棒": 2,
+        "石材": 1
+      },
+      "out": {
+        "初级工具": 1
+      },
+      "producers": [
+        "组装机",
+        "合成机"
+      ],
+      "id": "初级工具生产",
+      "name": "初级工具生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 16,
+      "in": {
+        "粮食": 4
+      },
+      "out": {
+        "酒": 1
+      },
+      "producers": [
+        "粮食处理器"
+      ],
+      "id": "粮食酒酿造",
+      "name": "粮食酒酿造",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 16,
+      "in": {
+        "粮食": 4
+      },
+      "out": {
+        "油": 1
+      },
+      "producers": [
+        "粮食处理器"
+      ],
+      "id": "粮食榨油",
+      "name": "粮食榨油",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 12,
+      "in": {
+        "酒": 3
+      },
+      "out": {
+        "酒精": 1
+      },
+      "producers": [
+        "冶炼器"
+      ],
+      "id": "酒精提纯",
+      "name": "酒精提纯",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 4,
+      "in": {
+        "铁矿石": 2,
+        "煤矿石": 2
+      },
+      "out": {
+        "钢锭": 1
+      },
+      "producers": [
+        "熔铸机"
+      ],
+      "id": "钢熔铸",
+      "name": "钢熔铸",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 8,
+      "in": {
+        "钢锭": 2
+      },
+      "out": {
+        "钢管": 1
+      },
+      "producers": [
+        "制造机",
+        "组装机",
+        "合成机"
+      ],
+      "id": "钢管生产",
+      "name": "钢管生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 9,
+      "in": {
+        "钢锭": 3
+      },
+      "out": {
+        "钢板": 2
+      },
+      "producers": [
+        "制造机",
+        "组装机",
+        "合成机"
+      ],
+      "id": "钢板生产",
+      "name": "钢板生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 16,
+      "in": {
+        "钢板": 2,
+        "石材": 5
+      },
+      "out": {
+        "钢筋混凝土": 1
+      },
+      "producers": [
+        "组装机",
+        "合成机"
+      ],
+      "id": "钢筋混凝土生产",
+      "name": "钢筋混凝土生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 16,
+      "in": {
+        "铁棒": 4,
+        "铜线": 20
+      },
+      "out": {
+        "电枢": 1
+      },
+      "producers": [
+        "组装机",
+        "合成机"
+      ],
+      "id": "电枢生产",
+      "name": "电枢生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 16,
+      "in": {
+        "铜板": 4,
+        "螺丝": 25
+      },
+      "out": {
+        "集电环": 1
+      },
+      "producers": [
+        "组装机",
+        "合成机"
+      ],
+      "id": "集电环生产",
+      "name": "集电环生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 4,
+      "in": {
+        "煤矿石": 1,
+        "木纤维": 1
+      },
+      "out": {
+        "燃料碳棒": 1
+      },
+      "producers": [
+        "组装机",
+        "合成机"
+      ],
+      "id": "燃料碳棒生产",
+      "name": "燃料碳棒生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 8,
+      "in": {
+        "钢筋混凝土": 1
+      },
+      "out": {
+        "强力石砖": 2
+      },
+      "producers": [
+        "制造机",
+        "组装机",
+        "合成机"
+      ],
+      "id": "强力石砖",
+      "name": "强力石砖",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 10,
+      "in": {
+        "兽皮": 1,
+        "布": 2
+      },
+      "out": {
+        "精致皮革": 1
+      },
+      "producers": [
+        "组装机",
+        "合成机"
+      ],
+      "id": "精致皮革生产",
+      "name": "精致皮革生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 10,
+      "in": {
+        "蛛丝": 1,
+        "线": 4
+      },
+      "out": {
+        "精致丝线": 2
+      },
+      "producers": [
+        "组装机",
+        "合成机"
+      ],
+      "id": "精致丝线生产",
+      "name": "精致丝线生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 5,
+      "in": {
+        "铁锭": 3,
+        "铜锭": 3
+      },
+      "out": {
+        "红色晶能": 1
+      },
+      "producers": [
+        "晶体置换机"
+      ],
+      "id": "红色晶能生产",
+      "name": "红色晶能生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 8,
+      "in": {
+        "布": 3,
+        "初级工具": 2
+      },
+      "out": {
+        "绿色晶能": 1
+      },
+      "producers": [
+        "晶体置换机"
+      ],
+      "id": "绿色晶能生产",
+      "name": "绿色晶能生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 10,
+      "in": {
+        "铁质核心": 1,
+        "钢管": 3
+      },
+      "out": {
+        "蓝色晶能": 1
+      },
+      "producers": [
+        "晶体置换机"
+      ],
+      "id": "蓝色晶能生产",
+      "name": "蓝色晶能生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 12,
+      "in": {
+        "控制器": 1,
+        "电动机": 1
+      },
+      "out": {
+        "紫色晶能": 1
+      },
+      "producers": [
+        "晶体置换机"
+      ],
+      "id": "紫色晶能生产",
+      "name": "紫色晶能生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 14,
+      "in": {
+        "电动机": 2,
+        "石材": 4
+      },
+      "out": {
+        "黄色晶能": 1
+      },
+      "producers": [
+        "晶体置换机"
+      ],
+      "id": "黄色晶能生产",
+      "name": "黄色晶能生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 16,
+      "in": {
+        "电动机": 2,
+        "石材": 4
+      },
+      "out": {
+        "黑色晶能": 1
+      },
+      "producers": [
+        "晶体置换机"
+      ],
+      "id": "黑色晶能生产_close",
+      "name": "黑色晶能生产_close",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 30,
+      "in": {
+        "提纯硅": 10,
+        "铜板": 15
+      },
+      "out": {
+        "芯片": 1
+      },
+      "producers": [
+        "组装机",
+        "合成机"
+      ],
+      "id": "芯片生产",
+      "name": "芯片生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 30,
+      "in": {
+        "芯片": 1,
+        "钢制核心": 1
+      },
+      "out": {
+        "控制器": 1
+      },
+      "producers": [
+        "组装机",
+        "合成机"
+      ],
+      "id": "控制器生产",
+      "name": "控制器生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 32,
+      "in": {
+        "电枢": 5,
+        "集电环": 5
+      },
+      "out": {
+        "电动机": 2
+      },
+      "producers": [
+        "组装机",
+        "合成机"
+      ],
+      "id": "电动机生产",
+      "name": "电动机生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 20,
+      "in": {
+        "工业结构体": 1,
+        "控制器": 1,
+        "电动机": 1
+      },
+      "out": {
+        "高级工具": 2
+      },
+      "producers": [
+        "合成机"
+      ],
+      "id": "高级工具生产",
+      "name": "高级工具生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 12,
+      "in": {
+        "提纯硅": 5,
+        "铁质工具": 2,
+        "铁质核心": 10
+      },
+      "out": {
+        "天机石": 1
+      },
+      "producers": [
+        "合成机"
+      ],
+      "id": "天机石制造",
+      "name": "天机石制造",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 20,
+      "in": {
+        "铜板": 3,
+        "木质框架": 1
+      },
+      "out": {
+        "C级能量块": 1
+      },
+      "producers": [
+        "核心充能器"
+      ],
+      "id": "C级能量块生产",
+      "name": "C级能量块生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 30,
+      "in": {
+        "钢管": 4,
+        "提纯硅": 10
+      },
+      "out": {
+        "B级能量块": 1
+      },
+      "producers": [
+        "核心充能器"
+      ],
+      "id": "B级能量块生产",
+      "name": "B级能量块生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 30,
+      "in": {
+        "铁质框架": 3,
+        "钢管": 5,
+        "强力石砖": 5
+      },
+      "out": {
+        "工业结构体": 2
+      },
+      "producers": [
+        "合成机"
+      ],
+      "id": "工业结构体生产",
+      "name": "工业结构体生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 5,
+      "in": {
+        "桶装石油": 3,
+        "煤矿石": 2
+      },
+      "out": {
+        "塑料": 1
+      },
+      "producers": [
+        "组装机",
+        "合成机"
+      ],
+      "id": "塑料生产",
+      "name": "塑料生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 5,
+      "in": {
+        "桶装石油": 3,
+        "粮食": 2
+      },
+      "out": {
+        "橡胶": 1
+      },
+      "producers": [
+        "组装机",
+        "合成机"
+      ],
+      "id": "橡胶生产",
+      "name": "橡胶生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 30,
+      "in": {
+        "橡胶": 5,
+        "铜板": 20,
+        "工业结构体": 1
+      },
+      "out": {
+        "电路板": 1
+      },
+      "producers": [
+        "合成机"
+      ],
+      "id": "电路板生产",
+      "name": "电路板生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 30,
+      "in": {
+        "电路板": 1,
+        "芯片": 5,
+        "控制器": 5
+      },
+      "out": {
+        "大型计算机": 1
+      },
+      "producers": [
+        "合成机"
+      ],
+      "id": "大型计算机生产",
+      "name": "大型计算机生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 10,
+      "in": {
+        "燃料碳棒": 2,
+        "桶装石油": 2
+      },
+      "out": {
+        "燃油能量块": 1
+      },
+      "producers": [
+        "组装机",
+        "合成机"
+      ],
+      "id": "燃油能量块生产",
+      "name": "燃油能量块生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 8,
+      "in": {
+        "橡胶": 3,
+        "塑料": 3,
+        "强力石砖": 4
+      },
+      "out": {
+        "高性能地板": 1
+      },
+      "producers": [
+        "合成机"
+      ],
+      "id": "高性能地板生产",
+      "name": "高性能地板生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 6,
+      "in": {
+        "油": 2,
+        "酒精": 2
+      },
+      "out": {
+        "香皂": 1
+      },
+      "producers": [
+        "组装机",
+        "合成机"
+      ],
+      "id": "香皂生产",
+      "name": "香皂生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 6,
+      "in": {
+        "木质框架": 1,
+        "铜板": 3
+      },
+      "out": {
+        "铜镜": 1
+      },
+      "producers": [
+        "组装机",
+        "合成机"
+      ],
+      "id": "铜镜生产",
+      "name": "铜镜生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 8,
+      "in": {
+        "木棒": 2,
+        "油纸": 3
+      },
+      "out": {
+        "油纸伞": 1
+      },
+      "producers": [
+        "组装机",
+        "合成机"
+      ],
+      "id": "油纸伞生产",
+      "name": "油纸伞生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 12,
+      "in": {
+        "布": 2,
+        "酒精": 2,
+        "铁质框架": 1
+      },
+      "out": {
+        "医药箱": 1
+      },
+      "producers": [
+        "合成机"
+      ],
+      "id": "医药箱生产",
+      "name": "医药箱生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 16,
+      "in": {
+        "玻璃": 5,
+        "芯片": 2,
+        "电路板": 1
+      },
+      "out": {
+        "手表": 1
+      },
+      "producers": [
+        "合成机"
+      ],
+      "id": "手表生产",
+      "name": "手表生产",
+      "category": "components",
+      "stack": 1
+    },
+    {
+      "time": 20,
+      "in": {
+        "工业结构体": 1,
+        "高级工具": 1,
+        "大型计算机": 1
+      },
+      "out": {
+        "烤箱": 1
+      },
+      "producers": [
+        "合成机"
+      ],
+      "id": "烤箱生产",
+      "name": "烤箱生产",
+      "category": "components",
+      "stack": 1
+    }
+  ],
+  "defaults": {
+    "minBelt": "be_1级传送带",
+    "maxBelt": "be_4级传送带"
+  }
+  }

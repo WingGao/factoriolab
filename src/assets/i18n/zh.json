@@ -59,6 +59,19 @@
       "upgraded": "升级的",
       "proliferated": "催化的"
     },
+    "rateType": {
+      "itemsPerSecond": "个/秒",
+      "itemsPerMinute": "个/分钟",
+      "itemsPerHour": "个/小时",
+      "belts": "传送带",
+      "wagonsPerSecond": "Wagons/s",
+      "wagonsPerMinute": "Wagons/m",
+      "wagonsPerHour": "Wagons/h",
+      "factories": "机器",
+      "pollutionPerSecond": "Pollution/s",
+      "pollutionPerMinute": "Pollution/m",
+      "pollutionPerHour": "Pollution/h"
+    },
     "researchSpeed": {
       "speed0": "无研发速度加成",
       "speed1": "研发速度 1",

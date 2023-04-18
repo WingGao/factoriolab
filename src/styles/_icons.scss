@@ -68,7 +68,10 @@
 .captain-of-industry::before {
   background-position: -1px -1px;
 }
-
+.jiangcity::before {
+  background-image: url('../data/jiangcity/icon.png');
+  background-size: cover;
+}
 .dyson-sphere-program::before {
   background-position: -66px -1px;
 }

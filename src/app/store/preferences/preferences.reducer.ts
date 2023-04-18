@@ -39,10 +39,10 @@ export const initialPreferencesState: PreferencesState = {
   states: {},
   columns: initialColumnsState,
   simplexType: SimplexType.WasmFloat64,
-  language: Language.English,
+  language: Language.Chinese,
   powerUnit: PowerUnit.Auto,
   theme: Theme.Dark,
-  bypassLanding: false,
+  bypassLanding: true,
 };
 
 export function preferencesReducer(

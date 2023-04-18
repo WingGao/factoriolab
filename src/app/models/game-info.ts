@@ -17,7 +17,7 @@ export const gameInfo: Record<Game, GameInfo> = {
     modId: '1.1',
   },
   [Game.JiangCity]: {
-    icon: 'factorio',
+    icon: 'jiangcity',
     route: 'jiangcity',
     label: 'options.game.jiangcity',
     meta: '江城创业记',
